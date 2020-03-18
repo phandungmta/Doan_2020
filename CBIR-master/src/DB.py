@@ -5,8 +5,8 @@ from __future__ import print_function
 import pandas as pd
 import os
 
-DB_dir = 'D:/Doan/fashion-dataset/images/'
-DB_csv = 'imgs.csv'  # 'D:/Doan/fashion-dataset/images/images.csv'
+DB_dir = '/content/Doan_2020/images/'
+DB_csv = 'imgfull.csv'  # 'D:/Doan/fashion-dataset/images/images.csv'
 
 i = 0
 

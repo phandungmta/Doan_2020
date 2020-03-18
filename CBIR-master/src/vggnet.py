@@ -175,30 +175,34 @@ class VGGNetFeat(object):
 
             for d in data.itertuples():
                 i += i
-                print(i, "/n")
+                if(i%1000==0):
+                    print ("loading %2f",%(i/44444)*100)
                 d_img, d_cls = getattr(d, "img"), getattr(d, "cls")
-                img = cv2.imread(d_img, cv2.IMREAD_COLOR)
-                img = img[:, :, ::-1]  # switch to BGR
-                img = np.transpose(img, (2, 0, 1)) / 255.
-                img[0] -= means[0]  # reduce B's mean
-                img[1] -= means[1]  # reduce G's mean
-                img[2] -= means[2]  # reduce R's mean
-                img = np.expand_dims(img, axis=0)
                 try:
-                    if use_gpu:
-                        inputs = torch.autograd.Variable(
-                            torch.from_numpy(img).cuda().float())
-                    else:
-                        inputs = torch.autograd.Variable(
-                            torch.from_numpy(img).float())
-                    d_hist = vgg_model(inputs)[pick_layer]
-                    d_hist = np.sum(d_hist.data.cpu().numpy(), axis=0)
-                    d_hist /= np.sum(d_hist)  # normalize
-                    samples.append({
-                        'img':  d_img,
-                        'cls':  d_cls,
-                        'hist': d_hist
-                    })
+                    img = cv2.imread(d_img, cv2.IMREAD_COLOR)
+                    img = img[:, :, ::-1]  # switch to BGR
+                    img = np.transpose(img, (2, 0, 1)) / 255.
+                    img[0] -= means[0]  # reduce B's mean
+                    img[1] -= means[1]  # reduce G's mean
+                    img[2] -= means[2]  # reduce R's mean
+                    img = np.expand_dims(img, axis=0)
+                    try:
+                        if use_gpu:
+                            inputs = torch.autograd.Variable(
+                                torch.from_numpy(img).cuda().float())
+                        else:
+                            inputs = torch.autograd.Variable(
+                                torch.from_numpy(img).float())
+                        d_hist = vgg_model(inputs)[pick_layer]
+                        d_hist = np.sum(d_hist.data.cpu().numpy(), axis=0)
+                        d_hist /= np.sum(d_hist)  # normalize
+                        samples.append({
+                            'img':  d_img,
+                            'cls':  d_cls,
+                            'hist': d_hist
+                        })
+                    except:
+                        pass
                 except:
                     pass
             cPickle.dump(samples, open(os.path.join(
