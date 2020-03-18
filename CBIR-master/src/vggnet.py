@@ -174,7 +174,7 @@ class VGGNetFeat(object):
             i = 0
 
             for d in data.itertuples():
-                i += i
+                i += 1
                 if(i%1000==0):
                     print ("loading %2f"%(i/44444)*100)
                 d_img, d_cls = getattr(d, "img"), getattr(d, "cls")
