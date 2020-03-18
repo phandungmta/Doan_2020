@@ -21,11 +21,11 @@ if __name__ == '__main__':
     db = Database()
 
     # # retrieve by color
-    method = Color()
-    samples = method.make_samples(db)
-    query = samples[query_idx]
-    _, result = infer(query, samples=samples, depth=depth, d_type=d_type)
-    print(result)
+    # method = Color()
+    # samples = method.make_samples(db)
+    # query = samples[query_idx]
+    # _, result = infer(query, samples=samples, depth=depth, d_type=d_type)
+    # print(result)
 
     # # retrieve by daisy
     # method = Daisy()
