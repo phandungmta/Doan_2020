@@ -176,7 +176,7 @@ class VGGNetFeat(object):
             for d in data.itertuples():
                 i += i
                 if(i%1000==0):
-                    print ("loading %2f",%(i/44444)*100)
+                    print ("loading %2f"%(i/44444)*100)
                 d_img, d_cls = getattr(d, "img"), getattr(d, "cls")
                 try:
                     img = cv2.imread(d_img, cv2.IMREAD_COLOR)
