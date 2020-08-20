@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>2101.jpg</filename>
+	<path>D:\Doan\Đồ án\data\images\2101.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>168</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>clothoes</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>16</xmin>
+			<ymin>61</ymin>
+			<xmax>155</xmax>
+			<ymax>217</ymax>
+		</bndbox>
+	</object>
+</annotation>

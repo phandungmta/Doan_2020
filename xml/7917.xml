@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>7917.jpg</filename>
+	<path>D:\Doan\Đồ án\data\images\7917.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>168</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>clothoes</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>34</xmin>
+			<ymin>51</ymin>
+			<xmax>144</xmax>
+			<ymax>178</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>watch</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>127</xmin>
+			<ymin>169</ymin>
+			<xmax>154</xmax>
+			<ymax>186</ymax>
+		</bndbox>
+	</object>
+</annotation>

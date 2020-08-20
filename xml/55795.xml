@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>55795.jpg</filename>
+	<path>D:\Doan\Đồ án\data\images\55795.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>168</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>clothoes</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>53</xmin>
+			<ymin>42</ymin>
+			<xmax>123</xmax>
+			<ymax>125</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>clothoes</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>56</xmin>
+			<ymin>112</ymin>
+			<xmax>113</xmax>
+			<ymax>203</ymax>
+		</bndbox>
+	</object>
+</annotation>

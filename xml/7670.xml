@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>7670.jpg</filename>
+	<path>D:\Doan\Đồ án\data\images\7670.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>168</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>sock</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>87</xmin>
+			<ymin>28</ymin>
+			<xmax>150</xmax>
+			<ymax>203</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>sock</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>18</xmin>
+			<ymin>27</ymin>
+			<xmax>85</xmax>
+			<ymax>202</ymax>
+		</bndbox>
+	</object>
+</annotation>

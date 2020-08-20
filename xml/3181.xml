@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>3181.jpg</filename>
+	<path>D:\Doan\Đồ án\data\images\3181.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>168</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>shoes</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>11</xmin>
+			<ymin>42</ymin>
+			<xmax>168</xmax>
+			<ymax>162</ymax>
+		</bndbox>
+	</object>
+</annotation>

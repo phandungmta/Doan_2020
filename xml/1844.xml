@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>1844.jpg</filename>
+	<path>D:\Doan\Đồ án\data\images\1844.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>168</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>clothoes</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>29</xmin>
+			<ymin>62</ymin>
+			<xmax>143</xmax>
+			<ymax>191</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>watch</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>31</xmin>
+			<ymin>170</ymin>
+			<xmax>49</xmax>
+			<ymax>181</ymax>
+		</bndbox>
+	</object>
+</annotation>

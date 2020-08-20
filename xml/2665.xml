@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>2665.jpg</filename>
+	<path>D:\Doan\Đồ án\data\images\2665.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>168</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bag</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>27</xmin>
+			<ymin>12</ymin>
+			<xmax>139</xmax>
+			<ymax>199</ymax>
+		</bndbox>
+	</object>
+</annotation>

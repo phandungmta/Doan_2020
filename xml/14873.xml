@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>14873.jpg</filename>
+	<path>D:\Doan\Đồ án\data\images\14873.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>168</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>other</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>7</xmin>
+			<ymin>72</ymin>
+			<xmax>161</xmax>
+			<ymax>192</ymax>
+		</bndbox>
+	</object>
+</annotation>
